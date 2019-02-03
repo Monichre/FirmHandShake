@@ -44,10 +44,6 @@ class Landing extends Component {
   render () {
     return (
       <Fragment>
-        <style>
-          @import
-          url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Karla');
-        </style>
         <svg className='hidden'>
           <symbol id='icon-arrow' viewBox='0 0 24 24'>
             <title>arrow</title>
@@ -64,7 +60,7 @@ class Landing extends Component {
           </p>
           <div className='frame'>
             <div className='frame__title-wrap'>
-              <h1 className='frame__title'>Layer Motion Slideshow</h1>
+              <h1 className='frame__title'>FirmHandShake Official</h1>
               <div className='nav'>
                 <div className='nav__counter'>
                   <span>0</span>/<span>0</span>
@@ -84,30 +80,22 @@ class Landing extends Component {
               </div>
             </div>
             <div className='frame__links'>
-              <a
-                href='https://tympanus.net/Tutorials/InteractiveParticles/'
-                title='Previous Demo'
-                data-hover
-              >
-                Previous demo
+              <a href='#' title='FirmHandShake' data-hover>
+                Spotify
+              </a>
+              <a href='#' title='FirmHandShake' data-hover>
+                Youtube
               </a>
               <a
-                href='https://tympanus.net/codrops/?p=37953'
-                title='Back to the article'
+                href='https://soundcloud.com/firmhandshakemusic'
+                title='FirmHandShake'
                 data-hover
               >
-                Article
-              </a>
-              <a
-                href='https://github.com/codrops/LayerMotionSlideshow/'
-                title='Find this project on GitHub'
-                data-hover
-              >
-                GitHub
+                Soundcloud
               </a>
             </div>
             <div className='index' data-hover>
-              index
+              ||
             </div>
           </div>
           <div className='slideshow'>

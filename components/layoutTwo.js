@@ -4,36 +4,31 @@ const LayoutTwo = () => {
       <div className='slide__figure slide__figure--main' data-sort='1'>
         <div
           className='slide__figure-img'
-          style={{ backgroundImage: ' url(../static/img/5.jpg)' }}
+          style={{ backgroundImage: 'url(../static/img/IMG_5440-min.jpg)' }}
         />
       </div>
       <div className='slide__figure slide__figure--box' data-sort='2'>
         <div
           className='slide__figure-img'
-          style={{ backgroundImage: ' url(../static/img/6.jpg)' }}
+          style={{ backgroundImage: 'url(../static/img/IMG_5440-min.jpg)' }}
         />
       </div>
       <div className='slide__figure slide__figure--box' data-sort='3'>
         <div
           className='slide__figure-img'
-          style={{ backgroundImage: ' url(../static/img/7.jpg)' }}
+          style={{ backgroundImage: 'url(../static/img/IMG_5440-min.jpg)' }}
         />
       </div>
       <div className='slide__figure slide__figure--box' data-sort='4'>
         <div
           className='slide__figure-img'
-          style={{ backgroundImage: ' url(../static/img/8.jpg)' }}
+          style={{ backgroundImage: 'url(../static/img/IMG_5440-min.jpg)' }}
         />
       </div>
-      <h2 className='slide__title'>Scabulous</h2>
-
-      <div className='slide__text'>
-        <p className='slide__text-meta'>by Carol Tuksinam on 2/21</p>
-        <p className='slide__text-description'>
-          Awake. Shake dreams from your hair my pretty child, my sweet one.
-          Choose the day and choose the sign of your day the day's divinity.
-          First thing you see.
-        </p>
+      <h2 className='slide__title'>FirmHandShake</h2>
+      <div className='slide__text slide__text--right'>
+        {/* <p className='slide__text-meta'>by Andrew Moore on 2/21</p> */}
+        <p className='slide__text-description'>Streaming and Dreaming</p>
         <a className='slide__text-link' data-hover href='#'>
           +
         </a>
